@@ -253,9 +253,5 @@ footer {
         display: none;
     }
 
-    div.botao:hover > .botaomenu {
-        display: block;
-        z-index: 1;
-    }
-    
+   
 }
