@@ -38,6 +38,7 @@ ul.botaomenu {
     padding: 5px;
     width: 90%;
     margin: 0px -50px;
+    z-Index: 2;
 }
 ul.botaomenu li {
 margin-bottom: 2px;
