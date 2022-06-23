@@ -33,11 +33,10 @@ display: none;
 
 ul.botaomenu {
     list-style: none;
-    
+    display:none;
     background-color:#792d2f;
     padding: 5px;
     width: 90%;
-    margin: 0px -50px;
     z-Index: 2;
 }
 ul.botaomenu li {
@@ -250,7 +249,7 @@ footer {
     header#cabecalho nav {
     align-content: flex-start; 
         }     
-    div.botao .botaomenu {
+    ul.botaomenu {
         display: none;
     }
 
