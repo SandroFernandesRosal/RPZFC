@@ -6,7 +6,7 @@ div#elencorpz {
     grid-row-start: 2;
     grid-row-end: 3;
     justify-items: center;
-    background-image: url(/IMG/campo.jpeg);
+    background-image: url(./IMG/campo.jpeg);
     background-size: 100%;
     display: grid;
     
