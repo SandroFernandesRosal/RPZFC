@@ -45,7 +45,7 @@ ul#elencofotos li span {
 
     
 ul#galeria li#foto01 {
-    background: url('./IMG/01.jpeg') no-repeat;
+    background: url('/IMG/01.jpeg') no-repeat;
     background-position: 50% 50%;
     background-size: 100% 100%;
     background-color: white;
@@ -57,7 +57,7 @@ ul#galeria li#foto01:hover {
     background-size: 100% 100%;
 }
 ul#galeria li#foto02 {
-    background: url('./IMG/02.jpeg') no-repeat;
+    background: url('/IMG/02.jpeg') no-repeat;
     background-position: 50% 50%;
     background-size: 100% 100%;
     background-color: white;
@@ -68,7 +68,7 @@ ul#galeria li#foto02:hover {
      }
     
 ul#galeria li#foto03 {
-    background: url('./IMG/03.jpeg') no-repeat;
+    background: url('/IMG/03.jpeg') no-repeat;
     background-position: 50% 50%;
     background-size: 100% 100%;
     background-color: white;
@@ -79,7 +79,7 @@ ul#galeria li#foto03:hover {
      }
  
 ul#galeria li#foto04 {
-    background: url('./IMG/04.jpeg') no-repeat;
+    background: url('/IMG/04.jpeg') no-repeat;
     background-position: 50% 50%;
     background-size: 100% 100%;
     background-color: white;
@@ -89,7 +89,7 @@ ul#galeria li#foto04:hover {
     background-size: 100% 100%;
      }
 ul#galeria li#foto05 {
-    background: url('./IMG/05.jpeg') no-repeat;
+    background: url('/IMG/05.jpeg') no-repeat;
     background-position: 50% 50%;
     background-size: 100% 100%;
     background-color: white;
@@ -99,7 +99,7 @@ ul#galeria li#foto05:hover {
     background-size: 100% 100%;
      }
 ul#galeria li#foto06 {
-    background: url('./IMG/06.jpg') no-repeat;
+    background: url('/IMG/06.jpg') no-repeat;
     background-position: 50% 50%;
     background-size: 100% 100%;
     background-color: white;
@@ -109,7 +109,7 @@ ul#galeria li#foto06:hover {
     background-size: 100% 100%;
      }
 ul#galeria li#foto07 {
-    background: url('./IMG/07.jpeg') no-repeat;
+    background: url('/IMG/07.jpeg') no-repeat;
     background-position: 50% 50%;
     background-size: 100% 100%;
     background-color: white;
