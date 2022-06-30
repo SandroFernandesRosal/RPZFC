@@ -15,10 +15,10 @@ header#cabecalho {
   display: flex;
   justify-content: space-around;
   align-items:center;
-  background-color: black;
-  background: url('IMG/banner-topo.png') no-repeat;
+  background: url('/IMG/banner-topo.png') no-repeat;
   background-position: 50% 50%;
   background-size: 100% 100%;
+  background-color: black;
   height: 140px;
   margin-bottom: 5px;
 
