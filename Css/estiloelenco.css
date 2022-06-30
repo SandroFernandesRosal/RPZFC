@@ -1,0 +1,65 @@
+
+
+div#elencorpz {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    justify-items: center;
+    background-image: url(/IMG/campo.jpeg);
+    background-size: 100%;
+    display: grid;
+    
+}
+ul#elencofotos {
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+
+}
+
+ul#elencofotos li {
+   width: 131px;
+   display: grid;
+   border: 7px solid black;
+   border-radius: 4px;
+   margin: 5px;
+   
+}
+
+ul#elencofotos li p {
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: black;
+    margin: 0;
+    padding: 2px;
+    
+    
+}
+
+@media (min-width:701px) {
+    div#elencorpz {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 4;
+    }
+
+    
+}
+
+  
+@media (min-width: 900px) {
+    div#elencorpz {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+       
+  
+  
+  
+  }
