@@ -12,7 +12,7 @@ function anuncio1() {
  
   
     noticia.src="./IMG/balada2.jpeg";
-    legenda.innerText = 'Depois de uma semana intensa de treinos e jogos importantes, parte do elenco saiu pra comemorar o aniversário de Léo Nariz.Lugar escolhido para comemorar foi no Olimpo, casa de show muito conhecida no Rio de Janeiro, no bairro da Vila da Penha. RPZ volta aos treinos na próxima segunda!'
+    legenda.innerText = 'Depois de uma semana intensa de treinos e jogos importantes, parte do elenco saiu pra comemorar o aniversário de Léo Nariz. Lugar escolhido para comemorar foi no Olimpo, casa de show muito conhecida no Rio de Janeiro, no bairro da Vila da Penha. RPZ volta aos treinos na próxima segunda!'
     legenda.style.fontWeight = 'bold'
     
  
