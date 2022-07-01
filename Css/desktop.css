@@ -97,6 +97,8 @@ header#cabecalho nav {
     justify-self: center;
   }
 
-
+main {
+  margin:0;
+}
 
 }
