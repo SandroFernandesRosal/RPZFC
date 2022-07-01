@@ -207,7 +207,8 @@ padding: 5px;
 }
 section#conteudoprincipal figcaption {
 font-size: 1.4rem;
-text-align: center;
+text-align: justify;
+padding: 5px;
 
 }
 section#conteudoprincipal article img {
