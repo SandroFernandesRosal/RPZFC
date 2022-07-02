@@ -209,6 +209,8 @@ section#conteudoprincipal figcaption {
 font-size: 1.4rem;
 text-align: justify;
 padding: 5px;
+display: flex;
+justify-content: center;
 
 }
 section#conteudoprincipal article img {
