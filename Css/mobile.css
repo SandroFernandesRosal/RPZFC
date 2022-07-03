@@ -133,7 +133,7 @@ header#cabecalho ul.menu li:hover {
 /******************* DESKTOP - CONTEÚDO DA ESQUERDA ***************/
 section#esquerda {
   color: white;
-  background-color: black;
+  background-color: white;
 
 
   /*************** CONTATO****************/
@@ -142,20 +142,27 @@ section#esquerda {
   background-color: rgba(255, 255, 255, 0.1);
   font-size: 1.3rem;
   margin: 0px;
-  text-align: center;
   padding: 2px;
+    display: grid;
+  align-self: flex-start;
+  justify-content: center;
 }
 
 .contato {
   background-color: black;
-  
+  display: grid;
+  align-items: center;
 }
 
 .contato ul {
   box-shadow: 0px 0px 10px  white;
   color: white;
   background-color: rgba(255, 255, 255, 0.1);
-  padding: 5px;
+  padding: 5px;display: grid;
+  align-self: center;
+  justify-content: center;
+  justify-self: center;
+  
   
 }
 
@@ -170,8 +177,7 @@ section#esquerda {
   /**************** ANÚNCIO *************/
 
   #anuncio {
-    background-color: black;
-    
+    background-color: black; 
     margin-top: 5px;
     
   }
