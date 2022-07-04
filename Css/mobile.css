@@ -181,6 +181,11 @@ section#esquerda {
     background-color: black;
     border: 1px solid black;
     margin-top: 5px;
+    padding: 5px;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    gap: 5px;
     
   }
 
@@ -188,12 +193,16 @@ section#esquerda section#anuncio article{
   height: 130px;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
   
   
 } 
 section#esquerda section#anuncio article p {
   
-  text-align: center;
+   display: grid;
+  align-self: center;
+  justify-self: center;
+  padding: 5px;
   font-size: 2rem;
 }
 
