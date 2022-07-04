@@ -162,6 +162,7 @@ section#esquerda {
   align-self: center;
   justify-content: center;
   justify-self: center;
+  border-radius: 5px;
   
   
 }
