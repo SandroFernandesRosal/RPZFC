@@ -101,5 +101,12 @@ header#cabecalho nav {
 main {
   margin:0;
 }
+  
+  .contato ul {
+  display: grid;
+  align-self: flex-start;
+  margin: 0%;
+
+}
 
 }
