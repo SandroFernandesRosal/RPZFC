@@ -206,7 +206,9 @@ section#esquerda section#anuncio article p {
   font-size: 2rem;
 }
 
-
+#facebook {
+ padding: 10px 0;
+}
 
 
 /******************* | MOBILE - NOTÍCIA CENTRAL| DESKTOP - CONTEÚDO DO MEIO ***************/
