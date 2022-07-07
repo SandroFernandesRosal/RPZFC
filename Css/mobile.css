@@ -23,7 +23,7 @@ header#cabecalho {
   justify-content: space-around;
   align-items:center;
   background-color: back;
-  background: url("../IMG/banner-topo.png") no-repeat black;
+  background: url("../IMG/banner-topo.png") no-repeat #0e0e0e;
   background-position: 50% 50%;
   background-size: 100% 100%;
   height: 110px;
@@ -154,7 +154,7 @@ section#esquerda {
 }
 
 .contato {
-  background-color: black;
+  background-color: #0e0e0e;
   display: grid;
   align-items: center;
 }
@@ -183,8 +183,8 @@ section#esquerda {
   /**************** ANÚNCIO *************/
 
   #anuncio {
-    background-color: black;
-    border: 1px solid black;
+    background-color: #0e0e0e;
+    border: 1px solid #0e0e0e;
     margin-top: 5px;
     padding: 5px;
     display: grid;
@@ -218,7 +218,7 @@ section#esquerda section#anuncio article p {
 
 /******************* | MOBILE - NOTÍCIA CENTRAL| DESKTOP - CONTEÚDO DO MEIO ***************/
 main {
-  background-color: black;
+  background-color: #0e0e0e;
   margin-bottom: 5px;
 }
 
@@ -247,7 +247,7 @@ section#conteudoprincipal article img {
 /***************ÚLTIMAS NOTÍCIAS***********/
 
 aside {
-background-color: black;
+background-color: #0e0e0e;
 margin-bottom: 5px;
 
 }
@@ -281,7 +281,7 @@ aside article legend {
 
 /******************* FOOTER ***************/
 footer {
-  background-color: black;
+  background-color: #0e0e0e;
   display: flex;
   align-content: center;
   justify-content: center;
