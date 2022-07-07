@@ -3,8 +3,8 @@
      display: grid;
      grid-template:
      "header  header" 110px
-     "meio aside"
-     "esquerda aside" 1fr
+     "meio aside"  1fr
+     "esquerda aside" 
      "footer footer" 50px
      /  1fr  1fr;
      gap: 5px;
@@ -35,6 +35,7 @@ header#cabecalho nav {
   grid-area: menu;
   align-self: flex-end;
   justify-self: center;
+  justify-content: space-around;
   
   
   }
@@ -42,7 +43,8 @@ header#cabecalho nav {
   header#cabecalho .escudo {
     display:grid;
     grid-area: logo;
-    justify-self: flex-end;
+    justify-content: flex-end;
+    
     z-index: 1;
     }
 
@@ -50,23 +52,19 @@ header#cabecalho nav {
       display:grid;
       grid-area: esquerda;
       margin: 0;
-      
-
+  
     }
-    
-
-   
-    
+  
     main {
       display:grid;
       grid-area: meio;
       margin-bottom: 0;
 
   }
+
   aside {
     display:grid;
     grid-area: aside;
-    
     
     }
 
@@ -85,7 +83,7 @@ header#cabecalho nav {
   #full {
      display: grid;
      grid-template:
-     "header header header" 140px
+     "header header header" 110px
      "esquerda meio aside" 1fr
      "footer footer footer" 50px
      /  1fr  50%  1fr;
@@ -95,18 +93,21 @@ header#cabecalho nav {
   
 
   header#cabecalho .escudo {
-    justify-self: center;
+    justify-content: center;
   }
 
 main {
   margin:0;
-}
   
-  .contato ul {
+}
+
+
+.contato ul {
   display: grid;
   align-self: flex-start;
   margin: 0%;
 
 }
+
 
 }
