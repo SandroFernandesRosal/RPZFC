@@ -2,7 +2,7 @@
   #full {
      display: grid;
      grid-template:
-     "header  header" 140px
+     "header  header" 110px
      "meio aside"
      "esquerda aside" 1fr
      "footer footer" 50px
@@ -16,7 +16,7 @@
   display: grid;
   grid-area: header;
   grid-template:
-  "menu logo ." 140px
+  "menu logo ." 110px
   / 1fr  1fr 1fr;
   
 
