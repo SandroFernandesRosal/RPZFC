@@ -39,17 +39,17 @@ header#cabecalho {
   align-items: center;
   justify-content: center;
   border:none;
-  width: 56px;
-  height: 56px;
-  border-radius: 10px;
-  margin-top: 4px;
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  
   
 
 }
 
 .botao img {
-  width: 40px;
-  height: 40px;
+  width: 25px;
+  height: 25px;
 }
 
 ul.botaomenu {
@@ -95,6 +95,10 @@ header#cabecalho .escudo {
 display: flex;
 align-self: center;
 z-index: 1;
+}
+
+.escudo img {
+  height: 130px;
 }
 
 /**************** MENU DESKTOP*************/
