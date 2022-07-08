@@ -112,8 +112,8 @@ header#cabecalho ul.menu {
   list-style: none;
   display: flex;
   align-items: center; 
-  margin-left: -30px;
-  margin-bottom: 0px;
+  padding: 0px;
+  margin: 0px;
   display: none;
  
 }
@@ -121,7 +121,9 @@ header#cabecalho ul.menu {
 header#cabecalho ul.menu li {
 padding: 10px;
 background-color: rgba(0, 0, 0, 0.2);
-border: 1px solid white;
+border-top: 1px  solid white;
+border-left: 1px  solid white;
+border-right: 1px solid white;
 
 }
 
@@ -178,13 +180,14 @@ section#esquerda {
   align-items: center;
   gap: 5px;
 
+
   
 }
   /**************** ANÚNCIO *************/
 
   #anuncio {
     background-color: #0e0e0e;
-    border: 1px solid #0e0e0e;
+    border: 1px solid black;
     margin-top: 5px;
     padding: 5px;
     display: grid;
